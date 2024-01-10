@@ -38,6 +38,41 @@
             font-weight: bold;
             text-decoration: underline;
         }
+
+        /* Add CSS for the black line under the navbar */
+        .navbar {
+            position: relative;
+        }
+
+        .navbar::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: black;
+        }
+
+        /* Add CSS for the back-to-top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            width: 40px;
+            height: 40px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+        }
+
+        .back-to-top:hover {
+            background-color: #333;
+        }
     </style>
 </head>
 
@@ -100,11 +135,30 @@
                 this.classList.add('active');
             });
         });
+
+        // JavaScript code for the back-to-top button
+        var backToTopButton = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 100) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
     </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <div class="back-to-top">↑</div>
 </body>
 
 </html>
