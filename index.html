@@ -138,17 +138,17 @@
             this.style.fontWeight = 'bold';
             this.style.textDecoration = 'underline';
 
-            // Add code to make other navbar links bold and underlined
-            if (this.innerText === 'Presentation') {
-                navLinks.forEach(function (link) {
-                    if (link.innerText !== 'Presentation') {
-                        link.style.fontWeight = 'bold';
-                        link.style.textDecoration = 'underline';
+                    // Add code to make other navbar links bold and underlined
+                    if (this.innerText === 'Présentation') {
+                        navLinks.forEach(function (link) {
+                            if (link.innerText !== 'Présentation') {
+                                link.style.fontWeight = 'bold';
+                                link.style.textDecoration = 'underline';
+                            }
+                        });
                     }
                 });
-            }
-        });
-    });
+            });
 
     // JavaScript code for the back-to-top button
     var backToTopButton = document.querySelector('.back-to-top');
