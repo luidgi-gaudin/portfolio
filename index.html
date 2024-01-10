@@ -33,6 +33,11 @@
 
         /* Add your additional Apple style CSS here */
 
+        /* Add your custom CSS for highlighting and bolding the active navbar link */
+        .navbar-nav .nav-link.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -83,6 +88,19 @@
             <!-- Ajoutez votre formulaire de contact ici -->
         </div>
     </section>
+
+    <script>
+        // JavaScript code to highlight and bold the active navbar link
+        var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+        navLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                navLinks.forEach(function(link) {
+                    link.classList.remove('active');
+                });
+                this.classList.add('active');
+            });
+        });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
