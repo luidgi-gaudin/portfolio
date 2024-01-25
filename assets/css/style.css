@@ -1,14 +1,4 @@
-/**
-* Template Name: iPortfolio
-* Updated: Jan 09 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -33,9 +23,6 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -66,9 +53,6 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
 #header {
   position: fixed;
   top: 0;
@@ -153,10 +137,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Desktop Navigation */
 .nav-menu {
   padding: 30px 0 0 0;
 }
@@ -205,7 +185,6 @@ h6 {
   color: #149ddd;
 }
 
-/* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -235,9 +214,6 @@ h6 {
   left: 0;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
@@ -303,9 +279,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -343,9 +316,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -378,9 +348,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
 }
@@ -429,9 +396,6 @@ section {
   color: #1f5297;
 }
 
-/*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
   display: block;
@@ -466,9 +430,6 @@ section {
   background-color: #149ddd;
 }
 
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -527,9 +488,6 @@ section {
   border: 2px solid #1f5297;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -628,9 +586,6 @@ section {
   bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
 }
@@ -693,9 +648,6 @@ section {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -748,9 +700,6 @@ section {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -840,9 +789,6 @@ section {
   background-color: #149ddd;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
 }
@@ -929,55 +875,6 @@ section {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
 .contact .php-email-form .form-group {
   margin-bottom: 15px;
 }
@@ -994,10 +891,12 @@ section {
 }
 
 .contact .php-email-form input {
+  height: auto;
   height: 44px;
 }
 
 .contact .php-email-form textarea {
+  min-height: 200%;
   padding: 10px 15px;
 }
 
@@ -1013,7 +912,11 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #37b3ed;
 }
-
+.send{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25%;
+}
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1024,9 +927,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
   background: #f9f9f9;
@@ -1071,9 +971,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 #footer {
   padding: 15px;
   color: #f4f6fd;
