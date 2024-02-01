@@ -137,6 +137,51 @@ h6 {
   }
 }
 
+.select-language {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 120px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #040b14;
+  background: #040b14;
+  position: relative;
+  color: whitesmoke;
+}
+
+.select-language select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-language:after {
+  top: 50%;
+  left: 85%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-width: 5px;
+  margin-top: -2px;
+  z-index: 100;
+}
+
+.select-language select:focus {
+  outline: none;
+}
+
 .nav-menu {
   padding: 30px 0 0 0;
 }
@@ -888,16 +933,25 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  border-radius: 10px;
 }
 
 .contact .php-email-form input {
   height: auto;
   height: 44px;
+  width: 150%;
+}
+
+@media (max-width: 1380px) {
+  .coordo{
+    flex-direction: column;
+  }
 }
 
 .contact .php-email-form textarea {
   min-height: 200%;
   padding: 10px 15px;
+  resize: none;
 }
 
 .contact .php-email-form button[type=submit] {

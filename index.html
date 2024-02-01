@@ -30,7 +30,12 @@
 
   <header id="header">
     <div class="d-flex flex-column">
-
+<div style="justify-content: start;">
+  <select class="select-language">
+    <option value="fr">Français</option>
+    <option value="en">English</option>
+  </select>
+</div>
       <div class="profile">
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Luidgi Gaudin</a></h1>
@@ -176,9 +181,9 @@
             </div>
 
             <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <span class="skill">JavaScript <i class="val">40%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
@@ -284,33 +289,33 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Tous</li>
-              <li data-filter=".filter-app">Web</li>
-              <li data-filter=".filter-card">App</li>
+              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">App</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <!-- <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div> -->
+              </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <!-- <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div> -->
+              </div>
             </div>
-          </div>
+          </div> -->
 
       </div>
     </section>
@@ -346,14 +351,12 @@
               </div>
 
               <iframe width="100%" height="290" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://maps.google.com/maps?width=100%25&amp;height=290&amp;hl=en&amp;q=Mornant,%20france+()&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population Estimator map</a></iframe>
-                  </div>
-
+            </div>
           </div>
-
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
           <form action="https://formspree.io/f/myyrkjwb" method="POST" class="php-email-form">
-              <div class="row">
-                <div class="form-group col">
+              <div class="row coordo">
+                <div class="form-group col ">
                 <label>
                   Votre nom et prénom:
                   <input class="form-control" type="text" name="name" required>
@@ -369,7 +372,7 @@
               <div class="row form-group">
                 <label>
                   Votre message:
-                  <textarea class="form-control" name="message"></textarea>
+                  <textarea type='text'class="form-control" name="message"></textarea>
                 </label>
               </div>
               <div class="row">
