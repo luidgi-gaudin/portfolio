@@ -88,6 +88,7 @@ selectLanguage.addEventListener("change", function () {
     document.getElementById("45").innerText = "Votre email :";
     document.getElementById("46").innerText = "Votre message :";
     document.getElementById("47").innerText = "Envoyer le message";
+    document.getElementById("btn-cv").innerText = "Télécharger le CV";
   }
   // Check if the selected value is "english"
   if (this.value === "en") {
@@ -173,6 +174,7 @@ selectLanguage.addEventListener("change", function () {
     document.getElementById("45").innerText = "Your email :";
     document.getElementById("46").innerText = "Your message :";
     document.getElementById("47").innerText = "Send the message";
+    document.getElementById("btn-cv").innerText = "Download the CV";
   }
 
   if (this.value === "es") {
@@ -261,5 +263,6 @@ selectLanguage.addEventListener("change", function () {
     document.getElementById("46").innerText = "Tu mensaje :";
     document.getElementById("47").innerText = "Enviar el mensaje";
     document.getElementById("48").innerText = "Contacto";
+    document.getElementById("btn-cv").innerText = "Descargar el CV";
   }
 });
