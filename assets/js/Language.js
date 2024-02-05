@@ -18,8 +18,6 @@ selectLanguage.addEventListener("change", function () {
       "Bonjour, je m'appelle Luidgi GAUDIN, j'ai 18 ans et je suis actuellement en BTS SIO en alternance. J'aimerais me spécialiser dans le développement web, mais je maîtrise également le développement d'applications.";
     document.getElementById("9").innerText =
       "Developpeur APP & Developpeur WEB.";
-    document.getElementById("10").innerText =
-      " Je vais vous donner ici les informations clés sur moi.";
     document.getElementById(
       "11"
     ).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Date de naissance:</strong> <span>16 Juillet 2005 </span>`;
@@ -105,8 +103,6 @@ selectLanguage.addEventListener("change", function () {
     document.getElementById("8").innerText =
       "Hello, my name is Luidgi GAUDIN, I am 18 years old and I am currently in BTS SIO in alternation. I would like to specialize in web development, but I also master application development.";
     document.getElementById("9").innerText = "APP Developer & WEB Developer.";
-    document.getElementById("10").innerText =
-      "I will give you here the key information about me.";
     document.getElementById(
       "11"
     ).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Date of birth:</strong> <span>July 16, 2005 </span>`;
@@ -192,8 +188,6 @@ selectLanguage.addEventListener("change", function () {
       "Hola, mi nombre es Luidgi GAUDIN, tengo 18 años y actualmente estoy en BTS SIO en alternancia. Me gustaría especializarme en desarrollo web, pero también domino el desarrollo de aplicaciones.";
     document.getElementById("9").innerText =
       "Desarrollador de APP y Desarrollador WEB.";
-    document.getElementById("10").innerText =
-      "Aquí te daré la información clave sobre mí.";
     document.getElementById(
       "11"
     ).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Fecha de nacimiento:</strong> <span>16 de julio de 2005 </span>`;
