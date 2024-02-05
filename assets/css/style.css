@@ -259,6 +259,22 @@ h6 {
   left: 0;
 }
 
+.curiculum{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.cv{
+  background-color: #040b14;
+  border-color: #149ddd;
+}
+.cv:hover{
+  background-color: #149ddd;
+  border-color: #040b14;
+  color: #040b14;
+}
+
 #hero {
   width: 100%;
   height: 100vh;
