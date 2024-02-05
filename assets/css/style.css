@@ -123,6 +123,17 @@ h6 {
     height: 40px;
     min-height: 40px;
   }
+
+  .container-waves {
+    top: 96%;
+  }
+}
+@media (max-width: 1024px){
+@media (min-width: 769px){
+  .container-waves {
+    top: 90%;
+  }
+}
 }
 
 #header {
