@@ -44,8 +44,6 @@ selectLanguage.addEventListener("change", function () {
     ).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Indisponible</span>`;
     document.getElementById("19").innerText =
       "Languages informatiques maîtrisés";
-    document.getElementById("20").innerText =
-      "Je maîtrise plusieurs langages natifs et je commence à apprendre des frameworks pour simplifier et mettre à jour mon code.";
     document.getElementById("21").innerText = "Parcours";
     document.getElementById("22").innerText = "Résumé";
     document.getElementById("23").innerText =
@@ -129,8 +127,6 @@ selectLanguage.addEventListener("change", function () {
       "18"
     ).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Unavailable</span>`;
     document.getElementById("19").innerText = "Mastered computer languages";
-    document.getElementById("20").innerText =
-      "I master several native languages and I am starting to learn frameworks to simplify and update my code.";
     document.getElementById("21").innerText = "Summary";
     document.getElementById("22").innerText = "resume";
     document.getElementById("23").innerText =
@@ -216,8 +212,6 @@ selectLanguage.addEventListener("change", function () {
       "18"
     ).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Indisponible</span>`;
     document.getElementById("19").innerText = "Idiomas informáticos dominados";
-    document.getElementById("20").innerText =
-      "Domino varios idiomas nativos y estoy empezando a aprender frameworks para simplificar y actualizar mi código.";
     document.getElementById("21").innerText = "Resumen";
     document.getElementById("22").innerText = "resumen";
     document.getElementById("23").innerText =

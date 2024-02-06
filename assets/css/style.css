@@ -540,6 +540,51 @@ section {
   color: #1f5297;
 }
 
+.skills-img {
+  width: 60%;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0px auto 30px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+.skills-card {
+  background: var(--white);
+  text-align: center;
+  border-radius: 5px;
+  padding: 30px 0px 0px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.15);
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+@media (max-width: 767px){ .skills-card {
+  margin-bottom: 20px;
+}}
+.skills-name {
+  border-top: 1px solid var(--border);
+  padding: 14px;
+  font-weight: bold;
+}
+.skills-trait{
+  width: 80%;
+}
+
+.skills-traits {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
