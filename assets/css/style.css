@@ -353,8 +353,8 @@ h6 {
   border-color: #149ddd;
 }
 .cv:hover{
+  box-shadow: #149ddd 0px 0px 10px;
   background-color: #149ddd;
-  border-color: #040b14;
   color: #040b14;
 }
 
@@ -567,6 +567,10 @@ section {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
+.skills-card:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 767px){ .skills-card {
   margin-bottom: 20px;
 }}
