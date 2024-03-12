@@ -353,7 +353,7 @@ h6 {
   border-color: #149ddd;
 }
 .cv:hover{
-  box-shadow: #149ddd 0px 0px 10px;
+  box-shadow: #149ddd 0px 4px 10px;
   background-color: #149ddd;
   color: #040b14;
 }

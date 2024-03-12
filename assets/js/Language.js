@@ -56,7 +56,7 @@ selectLanguage.addEventListener("change", function () {
     document.getElementById("27").innerText = "Expériences Professionnelles";
     document.getElementById("28").innerText =
       "Développeur Web Junior en alternance";
-    document.getElementById("29").innerText = "2023 - now";
+    document.getElementById("29").innerText = "2023 - Maintenant";
     document.getElementById("30").innerText =
       "C'est une entreprise de financement basée à Saint-Étienne qui se spécialise dans la location longue durée (LLD).";
     document.getElementById("31").innerText =
