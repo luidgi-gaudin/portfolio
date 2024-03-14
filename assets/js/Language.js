@@ -8,7 +8,7 @@ selectLanguage.addEventListener("change", function () {
     document.querySelector("html").setAttribute("lang", "fr");
     // Change the inner text of the element with id "id1" to "Accueil"
     document.getElementById("1").innerText = "Accueil";
-    document.getElementById("2").innerText = "présentation";
+    document.getElementById("2").innerText = "Présentation";
     document.getElementById("3").innerText = "Parcours";
     document.getElementById("4").innerText = "Projets";
     document.getElementById("5").innerText = "Contact";
@@ -85,6 +85,7 @@ selectLanguage.addEventListener("change", function () {
     document.getElementById("46").innerText = "Votre message :";
     document.getElementById("47").innerText = "Envoyer le message";
     document.getElementById("48").innerText = "Contact";
+    document.getElementById("49").innerText = "Objet";
     document.getElementById("btn-cv").innerText = "Télécharger le CV";
   }
   // Check if the selected value is "english"
@@ -168,13 +169,13 @@ selectLanguage.addEventListener("change", function () {
     document.getElementById("46").innerText = "Your message :";
     document.getElementById("47").innerText = "Send the message";
     document.getElementById("48").innerText = "Contact";
+    document.getElementById("49").innerText = "Object";
     document.getElementById("btn-cv").innerText = "Download the CV";
   }
 
   if (this.value === "es") {
     // Change the language to spanish
     document.querySelector("html").setAttribute("lang", "es");
-    // Change the inner text of the element with id "id1" to "Inicio"
     document.getElementById("1").innerText = "Inicio";
     document.getElementById("2").innerText = "Sobre";
     document.getElementById("3").innerText = "Resumen";
@@ -253,6 +254,7 @@ selectLanguage.addEventListener("change", function () {
     document.getElementById("46").innerText = "Tu mensaje :";
     document.getElementById("47").innerText = "Enviar el mensaje";
     document.getElementById("48").innerText = "Contacto";
+    document.getElementById("49").innerText = "Objeto";
     document.getElementById("btn-cv").innerText = "Descargar el CV";
   }
 });
