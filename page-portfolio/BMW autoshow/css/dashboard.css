@@ -1,0 +1,62 @@
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: rgb(228, 228, 228);
+}
+
+label {
+    font-size: 0.875rem;
+    color: rgb(228, 228, 228);
+}
+p{
+    color: rgb(228, 228, 228);
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(228, 228, 228) !important;
+}
+
+body {
+    background-image: url('/images/dashboardBackground.jpg');
+}
+
+.rounded-t-5 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.card {
+    border-color: none;
+}
+
+table {
+    max-height: 80px;
+}
+.principal{
+    margin-top: 3rem !important;
+}
+
+@media (max-width: 768px) {
+    .principal{
+        margin-top: 3rem !important;
+    }
+    .total{
+        margin-top: 6rem !important;
+    }
+}
+.image-fond{
+    background-image: src('images/dashboard_background.jpg');
+}
+i{
+    color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.placement{
+    margin-top: 1rem!important;
+    margin-right: 5rem!important;
+    margin-left: 5rem!important;
+    max-width: 24rem!important;
+}
