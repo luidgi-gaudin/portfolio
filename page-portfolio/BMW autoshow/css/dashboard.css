@@ -20,7 +20,7 @@ h5 {
 }
 
 body {
-    background-image: url('/images/dashboardBackground.jpg');
+    background-image: url('../images/dashboardBackground.jpg');
 }
 
 .rounded-t-5 {
