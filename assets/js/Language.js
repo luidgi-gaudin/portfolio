@@ -37,9 +37,6 @@ selectLanguage.addEventListener("change", function () {
 		document.getElementById(
 			"17"
 		).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Adresse mail:</strong><span>luidgi.gaudin@gmail.com </span>`;
-		document.getElementById(
-			"18"
-		).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Indisponible</span>`;
 		document.getElementById("19").innerText =
 			"Languages informatiques maîtrisés";
 		document.getElementById("21").innerText = "Parcours";
@@ -119,9 +116,6 @@ selectLanguage.addEventListener("change", function () {
 		document.getElementById(
 			"17"
 		).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Email address:</strong><span>luidgi.gaudin@gmail.com </span>`;
-		document.getElementById(
-			"18"
-		).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Unavailable</span>`;
 		document.getElementById("19").innerText = "Mastered computer languages";
 		document.getElementById("21").innerText = "Summary";
 		document.getElementById("22").innerText = "resume";
@@ -203,9 +197,6 @@ selectLanguage.addEventListener("change", function () {
 		document.getElementById(
 			"17"
 		).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Correo electrónico:</strong><span> luidgi.gaudin@gmail.com </span>`;
-		document.getElementById(
-			"18"
-		).innerHTML = `<i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Indisponible</span>`;
 		document.getElementById("19").innerText = "Idiomas informáticos dominados";
 		document.getElementById("21").innerText = "Resumen";
 		document.getElementById("22").innerText = "resumen";
