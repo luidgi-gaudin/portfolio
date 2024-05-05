@@ -726,13 +726,13 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 29, 43, 0.75);
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.2s;
   z-index: 2;
   opacity: 0;
 }
@@ -744,7 +744,7 @@ section {
   bottom: -60px;
   z-index: 3;
   position: absolute;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.2s;
   display: flex;
   justify-content: center;
 }
@@ -753,18 +753,18 @@ section {
   color: #fff;
   font-size: 20px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgba(0, 29, 43, 0.75);
   transition: 0.3s;
   padding: 10px 15px;
   width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgba(0, 78, 114, 0.95);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid rgba(0, 78, 114, 0.95);
 }
 
 .portfolio .portfolio-wrap:hover::before {
